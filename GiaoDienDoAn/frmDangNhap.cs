@@ -39,7 +39,7 @@ namespace GiaoDienDoAn
                 //formBanHang.nhom = dt.Rows[0]["NHOMNGUOIDUNG"].ToString();
                 this.Hide();
                 f.ShowDialog();
-                //this.Close();
+                this.Close();
             }
         }
 

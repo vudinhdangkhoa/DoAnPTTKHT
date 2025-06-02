@@ -16,7 +16,7 @@ namespace GiaoDienDoAn
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formBanHang("NV001"));
+            Application.Run(new frmDangNhap());
         }
     }
 }

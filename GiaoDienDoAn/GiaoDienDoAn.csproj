@@ -64,19 +64,23 @@
     <EmbeddedResource Include="formBanHang.resx">
       <DependentUpon>formBanHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -85,6 +89,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\background.jpg" />
+    <Content Include="Resources\CAPNHAT.png" />
+    <Content Include="Resources\CAPP.png" />
+    <Content Include="Resources\CHON.png" />
+    <Content Include="Resources\delete.png" />
+    <Content Include="Resources\DOLLAR.png" />
+    <Content Include="Resources\ID.png" />
+    <Content Include="Resources\Logo.png" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\pass.png" />
+    <Content Include="Resources\TKSL.png" />
+    <Content Include="Resources\Untitled.png" />
+    <Content Include="Resources\user.png" />
+    <Content Include="Resources\xoa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

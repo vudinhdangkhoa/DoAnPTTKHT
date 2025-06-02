@@ -302,7 +302,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1924, 981);
+            this.ClientSize = new System.Drawing.Size(1918, 981);
             this.Controls.Add(this.txt_soluong);
             this.Controls.Add(this.cboTenHang);
             this.Controls.Add(this.label5);
